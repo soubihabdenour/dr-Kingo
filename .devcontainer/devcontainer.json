@@ -1,0 +1,21 @@
+/*
+ * Dev container configuration file for dr Kingo Codespace
+ * Class HAI5016 - by camphouse.me
+ */
+
+ {
+  "name": "Python 3",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+    "extensions": [
+    "github.copilot",
+    "ms-python.python",
+    "ms-toolsai.datawrangler",
+    "ms-toolsai.jupyter"
+  ]
+}
+}
+}
