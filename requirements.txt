@@ -1,0 +1,15 @@
+ipykernel
+llama-index
+llama-index-embeddings-azure-openai
+llama-index-llms-azure-openai
+llama-index-readers-web
+llama-index-vector-stores-supabase
+loguru
+openpyxl
+pandas
+psycopg2-binary
+python-dotenv
+SQLAlchemy
+stealth-requests
+streamlit
+tiktoken
